@@ -1,5 +1,6 @@
 public class Luzes {
-    public void atenuar() {
-        System.out.println("Luzes ambiente atenuadas para modo cinema.");
+    public void ligar() { System.out.println("Luzes ligadas"); }
+    public void desligar() {
+        System.out.println("Luzes ambiente desligadas.");
     }
 }
